@@ -1,0 +1,289 @@
+<workflow id="0" name="untitled" version="1.0.4" vistrail_id="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vistrails.org/workflow.xsd">
+  <connection id="256">
+    <port id="513" moduleId="211" moduleName="FieldDataQuery" name="fieldData" signature="(gov.usgs.sahm:DataInput|FieldData)" type="source" />
+    <port id="512" moduleId="228" moduleName="FieldDataAggregateAndWeight" name="fieldData" signature="(gov.usgs.sahm:DataInput|FieldData)" type="destination" />
+  </connection>
+  <connection id="257">
+    <port id="515" moduleId="218" moduleName="TemplateLayer" name="value" signature="(gov.usgs.sahm:DataInput|TemplateLayer)" type="source" />
+    <port id="514" moduleId="228" moduleName="FieldDataAggregateAndWeight" name="templateLayer" signature="(gov.usgs.sahm:DataInput|TemplateLayer)" type="destination" />
+  </connection>
+  <connection id="258">
+    <port id="517" moduleId="212" moduleName="MDSBuilder" name="mdsFile" signature="(gov.usgs.sahm:Other|MergedDataSet)" type="source" />
+    <port id="516" moduleId="222" moduleName="ModelSelectionCrossValidation" name="inputMDS" signature="(gov.usgs.sahm:Other|MergedDataSet)" type="destination" />
+  </connection>
+  <connection id="259">
+    <port id="519" moduleId="223" moduleName="CovariateCorrelationAndSelection" name="outputMDS" signature="(gov.usgs.sahm:Other|MergedDataSet)" type="source" />
+    <port id="518" moduleId="213" moduleName="RandomForest" name="mdsFile" signature="(gov.usgs.sahm:Other|MergedDataSet)" type="destination" />
+  </connection>
+  <connection id="260">
+    <port id="521" moduleId="223" moduleName="CovariateCorrelationAndSelection" name="outputMDS" signature="(gov.usgs.sahm:Other|MergedDataSet)" type="source" />
+    <port id="520" moduleId="214" moduleName="MARS" name="mdsFile" signature="(gov.usgs.sahm:Other|MergedDataSet)" type="destination" />
+  </connection>
+  <connection id="261">
+    <port id="523" moduleId="223" moduleName="CovariateCorrelationAndSelection" name="outputMDS" signature="(gov.usgs.sahm:Other|MergedDataSet)" type="source" />
+    <port id="522" moduleId="217" moduleName="GLM" name="mdsFile" signature="(gov.usgs.sahm:Other|MergedDataSet)" type="destination" />
+  </connection>
+  <connection id="262">
+    <port id="525" moduleId="223" moduleName="CovariateCorrelationAndSelection" name="outputMDS" signature="(gov.usgs.sahm:Other|MergedDataSet)" type="source" />
+    <port id="524" moduleId="219" moduleName="BoostedRegressionTree" name="mdsFile" signature="(gov.usgs.sahm:Other|MergedDataSet)" type="destination" />
+  </connection>
+  <connection id="263">
+    <port id="527" moduleId="222" moduleName="ModelSelectionCrossValidation" name="outputMDS" signature="(gov.usgs.sahm:Other|MergedDataSet)" type="source" />
+    <port id="526" moduleId="223" moduleName="CovariateCorrelationAndSelection" name="inputMDS" signature="(gov.usgs.sahm:Other|MergedDataSet)" type="destination" />
+  </connection>
+  <connection id="264">
+    <port id="529" moduleId="224" moduleName="OutputName" name="run_name_info" signature="(gov.usgs.sahm:Other|OutputNameInfo)" type="source" />
+    <port id="528" moduleId="212" moduleName="MDSBuilder" name="run_name_info" signature="(gov.usgs.sahm:Other|OutputNameInfo)" type="destination" />
+  </connection>
+  <connection id="265">
+    <port id="531" moduleId="213" moduleName="RandomForest" name="modelWorkspace" signature="(org.vistrails.vistrails.basic:Directory)" type="source" />
+    <port id="530" moduleId="225" moduleName="ModelMapViewer" name="model_workspace" signature="(org.vistrails.vistrails.basic:Directory)" type="destination" />
+  </connection>
+  <connection id="266">
+    <port id="533" moduleId="226" moduleName="PARC" name="RastersWithPARCInfoCSV" signature="(gov.usgs.sahm:Other|RastersWithPARCInfoCSV)" type="source" />
+    <port id="532" moduleId="212" moduleName="MDSBuilder" name="RastersWithPARCInfoCSV" signature="(gov.usgs.sahm:Other|RastersWithPARCInfoCSV)" type="destination" />
+  </connection>
+  <connection id="267">
+    <port id="535" moduleId="218" moduleName="TemplateLayer" name="value" signature="(gov.usgs.sahm:DataInput|TemplateLayer)" type="source" />
+    <port id="534" moduleId="226" moduleName="PARC" name="templateLayer" signature="(gov.usgs.sahm:DataInput|TemplateLayer)" type="destination" />
+  </connection>
+  <connection id="268">
+    <port id="537" moduleId="229" moduleName="PredictorListFile" name="RastersWithPARCInfoCSV" signature="(gov.usgs.sahm:Other|RastersWithPARCInfoCSV)" type="source" />
+    <port id="536" moduleId="226" moduleName="PARC" name="RastersWithPARCInfoCSV" signature="(gov.usgs.sahm:Other|RastersWithPARCInfoCSV)" type="destination" />
+  </connection>
+  <connection id="269">
+    <port id="539" moduleId="217" moduleName="GLM" name="modelWorkspace" signature="(org.vistrails.vistrails.basic:Directory)" type="source" />
+    <port id="538" moduleId="227" moduleName="ModelMapViewer" name="model_workspace" signature="(org.vistrails.vistrails.basic:Directory)" type="destination" />
+  </connection>
+  <connection id="270">
+    <port id="541" moduleId="220" moduleName="EnsembleBuilder" name="ModelWorkspaces" signature="(org.vistrails.vistrails.basic:Directory)" type="destination" />
+    <port id="540" moduleId="213" moduleName="RandomForest" name="modelWorkspace" signature="(org.vistrails.vistrails.basic:Directory)" type="source" />
+  </connection>
+  <connection id="271">
+    <port id="543" moduleId="220" moduleName="EnsembleBuilder" name="ModelWorkspaces" signature="(org.vistrails.vistrails.basic:Directory)" type="destination" />
+    <port id="542" moduleId="214" moduleName="MARS" name="modelWorkspace" signature="(org.vistrails.vistrails.basic:Directory)" type="source" />
+  </connection>
+  <connection id="272">
+    <port id="545" moduleId="220" moduleName="EnsembleBuilder" name="ModelWorkspaces" signature="(org.vistrails.vistrails.basic:Directory)" type="destination" />
+    <port id="544" moduleId="217" moduleName="GLM" name="modelWorkspace" signature="(org.vistrails.vistrails.basic:Directory)" type="source" />
+  </connection>
+  <connection id="273">
+    <port id="547" moduleId="220" moduleName="EnsembleBuilder" name="ModelWorkspaces" signature="(org.vistrails.vistrails.basic:Directory)" type="destination" />
+    <port id="546" moduleId="219" moduleName="BoostedRegressionTree" name="modelWorkspace" signature="(org.vistrails.vistrails.basic:Directory)" type="source" />
+  </connection>
+  <connection id="274">
+    <port id="549" moduleId="221" moduleName="RasterLayer" name="raster_file" signature="(org.vistrails.vistrails.basic:Path)" type="destination" />
+    <port id="548" moduleId="220" moduleName="EnsembleBuilder" name="AverageProbability" signature="(org.vistrails.vistrails.basic:File)" type="source" />
+  </connection>
+  <connection id="275">
+    <port id="551" moduleId="230" moduleName="RasterLayer" name="raster_file" signature="(org.vistrails.vistrails.basic:Path)" type="destination" />
+    <port id="550" moduleId="220" moduleName="EnsembleBuilder" name="BinaryCount" signature="(org.vistrails.vistrails.basic:File)" type="source" />
+  </connection>
+  <connection id="276">
+    <port id="553" moduleId="231" moduleName="GeoSpatialViewerCell" name="raster_layers" signature="(org.vistrails.vistrails.basic:Dictionary)" type="destination" />
+    <port id="552" moduleId="221" moduleName="RasterLayer" name="display_dict" signature="(org.vistrails.vistrails.basic:Dictionary)" type="source" />
+  </connection>
+  <connection id="277">
+    <port id="555" moduleId="232" moduleName="GeoSpatialViewerCell" name="raster_layers" signature="(org.vistrails.vistrails.basic:Dictionary)" type="destination" />
+    <port id="554" moduleId="230" moduleName="RasterLayer" name="display_dict" signature="(org.vistrails.vistrails.basic:Dictionary)" type="source" />
+  </connection>
+  <connection id="424">
+    <port id="848" moduleId="223" moduleName="CovariateCorrelationAndSelection" name="outputMDS" signature="(gov.usgs.sahm:Other|MergedDataSet)" type="source" />
+    <port id="849" moduleId="336" moduleName="MAXENT" name="mdsFile" signature="(gov.usgs.sahm:Other|MergedDataSet)" type="destination" />
+  </connection>
+  <connection id="425">
+    <port id="850" moduleId="336" moduleName="MAXENT" name="modelWorkspace" signature="(org.vistrails.vistrails.basic:Directory)" type="source" />
+    <port id="851" moduleId="337" moduleName="ModelMapViewer" name="model_workspace" signature="(org.vistrails.vistrails.basic:Directory)" type="destination" />
+  </connection>
+  <connection id="426">
+    <port id="852" moduleId="336" moduleName="MAXENT" name="modelWorkspace" signature="(org.vistrails.vistrails.basic:Directory)" type="source" />
+    <port id="853" moduleId="220" moduleName="EnsembleBuilder" name="ModelWorkspaces" signature="(org.vistrails.vistrails.basic:Directory)" type="destination" />
+  </connection>
+  <connection id="252">
+    <port id="505" moduleId="214" moduleName="MARS" name="modelWorkspace" signature="(org.vistrails.vistrails.basic:Directory)" type="source" />
+    <port id="504" moduleId="210" moduleName="ModelMapViewer" name="model_workspace" signature="(org.vistrails.vistrails.basic:Directory)" type="destination" />
+  </connection>
+  <connection id="253">
+    <port id="507" moduleId="216" moduleName="FieldData" name="value" signature="(gov.usgs.sahm:DataInput|FieldData)" type="source" />
+    <port id="506" moduleId="211" moduleName="FieldDataQuery" name="fieldData_file" signature="(gov.usgs.sahm:DataInput|FieldData)" type="destination" />
+  </connection>
+  <connection id="254">
+    <port id="509" moduleId="219" moduleName="BoostedRegressionTree" name="modelWorkspace" signature="(org.vistrails.vistrails.basic:Directory)" type="source" />
+    <port id="508" moduleId="215" moduleName="ModelMapViewer" name="model_workspace" signature="(org.vistrails.vistrails.basic:Directory)" type="destination" />
+  </connection>
+  <connection id="255">
+    <port id="511" moduleId="228" moduleName="FieldDataAggregateAndWeight" name="fieldData" signature="(gov.usgs.sahm:DataInput|FieldData)" type="source" />
+    <port id="510" moduleId="212" moduleName="MDSBuilder" name="fieldData" signature="(gov.usgs.sahm:DataInput|FieldData)" type="destination" />
+  </connection>
+  <module cache="1" id="336" name="MAXENT" namespace="Models" package="gov.usgs.sahm" version="2.0.0">
+    <location id="540" x="-268.697859452" y="-356.507617443" />
+  </module>
+  <module cache="1" id="337" name="ModelMapViewer" namespace="Output" package="gov.usgs.sahm" version="2.0.0">
+    <location id="538" x="345.970446484" y="-491.734644749" />
+  </module>
+  <module cache="1" id="210" name="ModelMapViewer" namespace="Output" package="gov.usgs.sahm" version="2.0.0">
+    <location id="298" x="283.194989352" y="-211.085963172" />
+    <function id="310" name="row" pos="0">
+      <parameter alias="" id="343" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:Integer" val="1" />
+    </function>
+    <function id="311" name="column" pos="1">
+      <parameter alias="" id="344" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:Integer" val="3" />
+    </function>
+  </module>
+  <module cache="1" id="211" name="FieldDataQuery" namespace="Tools" package="gov.usgs.sahm" version="2.0.0">
+    <location id="299" x="-573.635341251" y="589.527863392" />
+    <function id="312" name="x_column" pos="0">
+      <parameter alias="" id="578" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:String" val="X" />
+    </function>
+    <function id="313" name="y_column" pos="1">
+      <parameter alias="" id="579" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:String" val="Y" />
+    </function>
+    <function id="314" name="Response_column" pos="2">
+      <parameter alias="" id="580" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:String" val="responseBinary" />
+    </function>
+    <function id="315" name="ResponseType" pos="3">
+      <parameter alias="" id="348" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:String" val="Presence(Absence)" />
+    </function>
+  </module>
+  <module cache="1" id="212" name="MDSBuilder" namespace="Tools" package="gov.usgs.sahm" version="2.0.0">
+    <location id="541" x="-829.792922703" y="309.438683397" />
+  </module>
+  <module cache="1" id="213" name="RandomForest" namespace="Models" package="gov.usgs.sahm" version="2.0.0">
+    <location id="542" x="-274.260401235" y="-276.10325298" />
+    <function id="316" name="makeMESMap" pos="0">
+      <parameter alias="" id="349" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:Boolean" val="True" />
+    </function>
+  </module>
+  <module cache="1" id="214" name="MARS" namespace="Models" package="gov.usgs.sahm" version="2.0.0">
+    <location id="302" x="-226.474620193" y="-190.293128644" />
+    <function id="317" name="makeMESMap" pos="0">
+      <parameter alias="" id="350" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:Boolean" val="True" />
+    </function>
+  </module>
+  <module cache="1" id="215" name="ModelMapViewer" namespace="Output" package="gov.usgs.sahm" version="2.0.0">
+    <location id="303" x="296.474115299" y="57.8163372418" />
+    <function id="318" name="row" pos="0">
+      <parameter alias="" id="351" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:Integer" val="1" />
+    </function>
+    <function id="319" name="column" pos="1">
+      <parameter alias="" id="352" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:Integer" val="1" />
+    </function>
+  </module>
+  <module cache="1" id="216" name="FieldData" namespace="DataInput" package="gov.usgs.sahm" version="2.0.0">
+    <location id="304" x="-556.518743493" y="694.37097924" />
+    <function id="320" name="file" pos="0">
+      <parameter alias="" id="588" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:File" val="D:\oleksandr\landscape.csv" />
+    </function>
+  </module>
+  <module cache="1" id="217" name="GLM" namespace="Models" package="gov.usgs.sahm" version="2.0.0">
+    <location id="305" x="-173.379307923" y="-102.6858634" />
+    <function id="321" name="makeMESMap" pos="0">
+      <parameter alias="" id="354" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:Boolean" val="True" />
+    </function>
+  </module>
+  <module cache="1" id="218" name="TemplateLayer" namespace="DataInput" package="gov.usgs.sahm" version="2.0.0">
+    <location id="306" x="-884.131592584" y="683.895992346" />
+    <function id="322" name="file" pos="0">
+      <parameter alias="" id="582" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:File" val="D:\oleksandr\rasters\LCI.tif" />
+    </function>
+  </module>
+  <module cache="1" id="219" name="BoostedRegressionTree" namespace="Models" package="gov.usgs.sahm" version="2.0.0">
+    <location id="307" x="-133.557823722" y="-16.4059809633" />
+    <function id="323" name="makeMESMap" pos="0">
+      <parameter alias="" id="356" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:Boolean" val="True" />
+    </function>
+  </module>
+  <module cache="1" id="220" name="EnsembleBuilder" namespace="Tools" package="gov.usgs.sahm" version="2.0.0">
+    <location id="308" x="-49.3900491633" y="-468.359922773" />
+    <function id="493" name="ThresholdMetric" pos="0">
+      <parameter alias="" id="575" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:String" val="AUC" />
+    </function>
+    <function id="494" name="ThresholdValue" pos="1">
+      <parameter alias="" id="583" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:Float" val="0.7" />
+    </function>
+  </module>
+  <module cache="1" id="221" name="RasterLayer" namespace="GeospatialTools" package="gov.usgs.sahm" version="2.0.0">
+    <location id="309" x="-137.649979282" y="-612.362966651" />
+    <function id="324" name="display_max" pos="0">
+      <parameter alias="" id="357" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:Float" val="1.0" />
+    </function>
+    <function id="325" name="display_min" pos="1">
+      <parameter alias="" id="358" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:Float" val="0.0" />
+    </function>
+  </module>
+  <module cache="1" id="222" name="ModelSelectionCrossValidation" namespace="Tools" package="gov.usgs.sahm" version="2.0.0">
+    <location id="310" x="-696.034118921" y="113.180761446" />
+  </module>
+  <module cache="1" id="223" name="CovariateCorrelationAndSelection" namespace="Tools" package="gov.usgs.sahm" version="2.0.0">
+    <location id="543" x="-810.376391048" y="-139.298696403" />
+  </module>
+  <module cache="1" id="224" name="OutputName" namespace="Tools" package="gov.usgs.sahm" version="2.0.0">
+    <location id="312" x="-498.127256001" y="376.855719294" />
+    <function id="326" name="subfolder_name" pos="0">
+      <parameter alias="" id="589" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:String" val="LandscapeWatching10" />
+    </function>
+  </module>
+  <module cache="1" id="225" name="ModelMapViewer" namespace="Output" package="gov.usgs.sahm" version="2.0.0">
+    <location id="313" x="273.235644892" y="-370.435474529" />
+    <function id="327" name="row" pos="0">
+      <parameter alias="" id="360" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:Integer" val="1" />
+    </function>
+    <function id="328" name="column" pos="1">
+      <parameter alias="" id="361" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:Integer" val="4" />
+    </function>
+  </module>
+  <module cache="1" id="226" name="PARC" namespace="Tools" package="gov.usgs.sahm" version="2.0.0">
+    <location id="314" x="-916.206701602" y="435.503910519" />
+    <function id="329" name="ignoreNonOverlap" pos="0">
+      <parameter alias="" id="362" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:Boolean" val="True" />
+    </function>
+  </module>
+  <module cache="1" id="227" name="ModelMapViewer" namespace="Output" package="gov.usgs.sahm" version="2.0.0">
+    <location id="315" x="279.875207866" y="-81.6144851953" />
+    <function id="330" name="row" pos="0">
+      <parameter alias="" id="363" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:Integer" val="1" />
+    </function>
+    <function id="331" name="column" pos="1">
+      <parameter alias="" id="364" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:Integer" val="2" />
+    </function>
+  </module>
+  <module cache="1" id="228" name="FieldDataAggregateAndWeight" namespace="Tools" package="gov.usgs.sahm" version="2.0.0">
+    <location id="546" x="-551.954039349" y="493.992963556" />
+    <function id="332" name="FD_EPSG_projection" pos="0">
+      <parameter alias="" id="365" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:Integer" val="4326" />
+    </function>
+  </module>
+  <module cache="1" id="229" name="PredictorListFile" namespace="DataInput" package="gov.usgs.sahm" version="2.0.0">
+    <location id="545" x="-1208.07770566" y="568.59463377" />
+    <function id="333" name="csvFileList" pos="0">
+      <parameter alias="" id="581" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:File" val="D:\oleksandr\listOfPredictors.csv" />
+    </function>
+  </module>
+  <module cache="1" id="230" name="RasterLayer" namespace="GeospatialTools" package="gov.usgs.sahm" version="2.0.0">
+    <location id="318" x="66.7414378357" y="-607.717707171" />
+    <function id="334" name="categorical" pos="0">
+      <parameter alias="" id="367" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:Boolean" val="True" />
+    </function>
+    <function id="335" name="cmap" pos="1">
+      <parameter alias="" id="368" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:String" val="gray_r" />
+    </function>
+  </module>
+  <module cache="1" id="231" name="GeoSpatialViewerCell" namespace="GeospatialTools" package="gov.usgs.sahm" version="2.0.0">
+    <location id="319" x="-137.649979282" y="-695.97763729" />
+    <function id="336" name="column" pos="0">
+      <parameter alias="" id="369" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:Integer" val="1" />
+    </function>
+    <function id="337" name="row" pos="1">
+      <parameter alias="" id="370" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:Integer" val="2" />
+    </function>
+  </module>
+  <module cache="1" id="232" name="GeoSpatialViewerCell" namespace="GeospatialTools" package="gov.usgs.sahm" version="2.0.0">
+    <location id="320" x="113.194032635" y="-691.332377811" />
+    <function id="338" name="row" pos="0">
+      <parameter alias="" id="371" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:Integer" val="2" />
+    </function>
+    <function id="339" name="column" pos="1">
+      <parameter alias="" id="374" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:Integer" val="2" />
+    </function>
+  </module>
+</workflow>
