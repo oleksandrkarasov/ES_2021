@@ -1,0 +1,135 @@
+['X', 'Y', 'responseBinary', 'alos', 'alos_asm_21', 'alos_asm_7', 'alos_contrast_21', 'alos_contrast_7', 'alos_corr_21', 'alos_corr_7', 'alos_dent_21', 'alos_dent_7', 'alos_diss_21', 'alos_diss_7', 'alos_dvar_21', 'alos_dvar_7', 'alos_ent_21', 'alos_ent_7', 'alos_entropy_21', 'alos_entropy_7', 'alos_gearys_21', 'alos_gearys_7', 'alos_idm_21', 'alos_idm_7', 'alos_imcorr1_21', 'alos_imcorr1_7', 'alos_imcorr2_21', 'alos_imcorr2_7', 'alos_inertia_21', 'alos_inertia_7', 'alos_mean_21', 'alos_mean_7', 'alos_med_21', 'alos_med_7', 'alos_prom_21', 'alos_prom_7', 'alos_savg_21', 'alos_savg_7', 'alos_sd_21', 'alos_sd_7', 'alos_sent_21', 'alos_sent_7', 'alos_svar_21', 'alos_svar_7', 'alos_var_21', 'alos_var_7', 'hue_entropy_21', 'hue_entropy_7', 'l8blue', 'l8blue_entropy_21', 'l8blue_entropy_7', 'l8blue_gearys_21', 'l8blue_gearys_7', 'l8blue_mean_21', 'l8blue_mean_7', 'l8blue_med_21', 'l8blue_med_7', 'l8blue_sd_21', 'l8blue_sd_7', 'l8evi', 'l8gosavi', 'l8green', 'l8green_entropy_21', 'l8green_entropy_7', 'l8green_gearys_21', 'l8green_gearys_7', 'l8green_mean_7', 'l8green_med_21', 'l8green_med_7', 'l8green_sd_21', 'l8green_sd_7', 'l8hue', 'l8hue_asm_21', 'l8hue_asm_7', 'l8hue_contrast_21', 'l8hue_contrast_7', 'l8hue_corr_21', 'l8hue_corr_7', 'l8hue_dent_7', 'l8hue_diss_21', 'l8hue_diss_7', 'l8hue_dvar_21', 'l8hue_dvar_7', 'l8hue_ent_21', 'l8hue_ent_7', 'l8hue_idm_21', 'l8hue_idm_7', 'l8hue_imcorr1_21', 'l8hue_imcorr1_7', 'l8hue_imcorr2_21', 'l8hue_imcorr2_7', 'l8hue_inertia_21', 'l8hue_inertia_7', 'l8hue_mean_21', 'l8hue_mean_7', 'l8hue_med_21', 'l8hue_med_7', 'l8hue_prom_21', 'l8hue_prom_7', 'l8hue_savg_21', 'l8hue_savg_7', 'l8hue_sd_21', 'l8hue_sd_7', 'l8hue_sent_21', 'l8hue_sent_7', 'l8hue_svar_21', 'l8hue_svar_7', 'l8hue_var_21', 'l8hue_var_7', 'l8lumi_asm_21', 'l8lumi_asm_7', 'l8lumi_contrast_21', 'l8lumi_contrast_7', 'l8lumi_corr_21', 'l8lumi_corr_7', 'l8lumi_dent_21', 'l8lumi_dent_7', 'l8lumi_diss_21', 'l8lumi_diss_7', 'l8lumi_dvar_21', 'l8lumi_dvar_7', 'l8lumi_ent_21', 'l8lumi_ent_7', 'l8lumi_gearys_21', 'l8lumi_gearys_7', 'l8lumi_idm_7', 'l8lumi_imcorr1_21', 'l8lumi_imcorr1_7', 'l8lumi_imcorr2_21', 'l8lumi_imcorr2_7', 'l8lumi_inertia_21', 'l8lumi_inertia_7', 'l8lumi_mean_7', 'l8lumi_med_21', 'l8lumi_med_7', 'l8lumi_prom_21', 'l8lumi_prom_7', 'l8lumi_savg_21', 'l8lumi_savg_7', 'l8lumi_sd_21', 'l8lumi_sd_7', 'l8lumi_sent_7', 'l8lumi_svar_21', 'l8lumi_svar_7', 'l8lumi_var_21', 'l8lumi_var_7', 'l8ndbi', 'l8ndbi_asm_7', 'l8ndbi_contrast_21', 'l8ndbi_contrast_7', 'l8ndbi_corr_21', 'l8ndbi_corr_7', 'l8ndbi_dent_21', 'l8ndbi_dent_7', 'l8ndbi_diss_21', 'l8ndbi_diss_7', 'l8ndbi_dvar_21', 'l8ndbi_dvar_7', 'l8ndbi_ent_21', 'l8ndbi_ent_7', 'l8ndbi_gearys_21', 'l8ndbi_gearys_7', 'l8ndbi_idm_7', 'l8ndbi_imcorr1_21', 'l8ndbi_imcorr1_7', 'l8ndbi_imcorr2_21', 'l8ndbi_imcorr2_7', 'l8ndbi_inertia_7', 'l8ndbi_mean_21', 'l8ndbi_mean_7', 'l8ndbi_med_21', 'l8ndbi_med_7', 'l8ndbi_prom_21', 'l8ndbi_prom_7', 'l8ndbi_savg_21', 'l8ndbi_savg_7', 'l8ndbi_sd_21', 'l8ndbi_sd_7', 'l8ndbi_sent_21', 'l8ndbi_sent_7', 'l8ndbi_svar_21', 'l8ndbi_svar_7', 'l8ndbi_var_21', 'l8ndbi_var_7', 'l8ndvi', 'l8ndvi_asm_21', 'l8ndvi_asm_7', 'l8ndvi_contrast_21', 'l8ndvi_contrast_7', 'l8ndvi_corr_21', 'l8ndvi_corr_7', 'l8ndvi_dent_21', 'l8ndvi_dent_7', 'l8ndvi_diss_21', 'l8ndvi_diss_7', 'l8ndvi_dvar_21', 'l8ndvi_dvar_7', 'l8ndvi_ent_21', 'l8ndvi_ent_7', 'l8ndvi_gearys_21', 'l8ndvi_gearys_7', 'l8ndvi_idm_21', 'l8ndvi_idm_7', 'l8ndvi_imcorr1_21', 'l8ndvi_imcorr1_7', 'l8ndvi_imcorr2_21', 'l8ndvi_imcorr2_7', 'l8ndvi_inertia_21', 'l8ndvi_inertia_7', 'l8ndvi_mean_21', 'l8ndvi_mean_7', 'l8ndvi_med_21', 'l8ndvi_med_7', 'l8ndvi_prom_21', 'l8ndvi_prom_7', 'l8ndvi_savg_21', 'l8ndvi_savg_7', 'l8ndvi_sd_21', 'l8ndvi_sd_7', 'l8ndvi_sent_21', 'l8ndvi_sent_7', 'l8ndvi_svar_21', 'l8ndvi_svar_7', 'l8ndvi_var_21', 'l8ndvi_var_7', 'l8ndwi', 'l8nir', 'l8nir_entropy_21', 'l8nir_entropy_7', 'l8nir_gearys_21', 'l8nir_gearys_7', 'l8nir_mean_21', 'l8nir_mean_7', 'l8nir_med_21', 'l8nir_med_7', 'l8nir_sd_21', 'l8nir_sd_7', 'l8nrvi', 'l8red', 'l8red_entropy_21', 'l8red_entropy_7', 'l8red_gearys_21', 'l8red_gearys_7', 'l8red_mean_21', 'l8red_mean_7', 'l8red_med_21', 'l8red_med_7', 'l8red_sd_21', 'l8red_sd_7', 'l8sat', 'l8sat_asm_21', 'l8sat_asm_7', 'l8sat_contrast_21', 'l8sat_contrast_7', 'l8sat_corr_21', 'l8sat_corr_7', 'l8sat_dent_21', 'l8sat_dent_7', 'l8sat_diss_21', 'l8sat_diss_7', 'l8sat_dvar_21', 'l8sat_dvar_7', 'l8sat_ent_21', 'l8sat_ent_7', 'l8sat_idm_21', 'l8sat_idm_7', 'l8sat_imcorr1_21', 'l8sat_imcorr1_7', 'l8sat_imcorr2_21', 'l8sat_imcorr2_7', 'l8sat_inertia_21', 'l8sat_inertia_7', 'l8sat_mean_21', 'l8sat_mean_7', 'l8sat_med_21', 'l8sat_med_7', 'l8sat_prom_21', 'l8sat_prom_7', 'l8sat_savg_21', 'l8sat_savg_7', 'l8sat_sd_21', 'l8sat_sd_7', 'l8sat_sent_21', 'l8sat_sent_7', 'l8sat_svar_21', 'l8sat_svar_7', 'l8sat_var_21', 'l8sat_var_7', 'l8savi', 'l8swir1', 'l8swir1_entropy_21', 'l8swir1_entropy_7', 'l8swir1_gearys_21', 'l8swir1_gearys_7', 'l8swir1_mean_21', 'l8swir1_mean_7', 'l8swir1_med_21', 'l8swir1_med_7', 'l8swir1_sd_21', 'l8swir1_sd_7', 'l8swir2', 'l8swir2_entropy_21', 'l8swir2_entropy_7', 'l8swir2_gearys_21', 'l8swir2_gearys_7', 'l8swir2_mean_21', 'l8swir2_mean_7', 'l8swir2_med_21', 'l8swir2_med_7', 'l8swir2_sd_21', 'l8swir2_sd_7', 'l8tcap_brightness', 'l8tcap_brightness_gearys_21', 'l8tcap_brightness_gearys_7', 'l8tcap_brightness_mean_21', 'l8tcap_brightness_mean_7', 'l8tcap_brightness_med_21', 'l8tcap_brightness_med_7', 'l8tcap_brightness_sd_21', 'l8tcap_brightness_sd_7', 'l8tcap_greenness', 'l8tcap_greenness_gearys_21', 'l8tcap_greenness_gearys_7', 'l8tcap_greenness_mean_21', 'l8tcap_greenness_mean_7', 'l8tcap_greenness_med_21', 'l8tcap_greenness_med_7', 'l8tcap_greenness_sd_21', 'l8tcap_greenness_sd_7', 'l8tcap_wetness', 'l8tcap_wetness_gearys_21', 'l8tcap_wetness_gearys_7', 'l8tcap_wetness_mean_21', 'l8tcap_wetness_mean_7', 'l8tcap_wetness_med_21', 'l8tcap_wetness_med_7', 'l8tcap_wetness_sd_21', 'l8tcap_wetness_sd_7', 'l8val', 'l8val_asm_21', 'l8val_asm_7', 'l8val_contrast_21', 'l8val_contrast_7', 'l8val_corr_21', 'l8val_corr_7', 'l8val_dent_21', 'l8val_dent_7', 'l8val_diss_21', 'l8val_diss_7', 'l8val_dvar_21', 'l8val_dvar_7', 'l8val_ent_21', 'l8val_ent_7', 'l8val_idm_21', 'l8val_idm_7', 'l8val_imcorr1_7', 'l8val_imcorr2_21', 'l8val_imcorr2_7', 'l8val_inertia_21', 'l8val_inertia_7', 'l8val_mean_21', 'l8val_mean_7', 'l8val_med_21', 'l8val_med_7', 'l8val_prom_21', 'l8val_prom_7', 'l8val_savg_21', 'l8val_savg_7', 'l8val_sd_21', 'l8val_sd_7', 'l8val_sent_21', 'l8val_sent_7', 'l8val_svar_21', 'l8val_svar_7', 'l8val_var_21', 'l8val_var_7', 'latitude', 'LCI', 'longitude', 'ndbi_entropy_21', 'ndbi_entropy_7', 'ndvi_entropy_21', 'ndvi_entropy_7', 's1ratio', 's1ratio_asm_7', 's1ratio_contrast_21', 's1ratio_contrast_7', 's1ratio_corr_21', 's1ratio_corr_7', 's1ratio_dent_21', 's1ratio_dent_7', 's1ratio_diss_21', 's1ratio_diss_7', 's1ratio_dvar_21', 's1ratio_dvar_7', 's1ratio_ent_21', 's1ratio_ent_7', 's1ratio_entropy_21', 's1ratio_entropy_7', 's1ratio_gearys_21', 's1ratio_gearys_7', 's1ratio_idm_21', 's1ratio_idm_7', 's1ratio_imcorr1_21', 's1ratio_imcorr1_7', 's1ratio_imcorr2_7', 's1ratio_inertia_21', 's1ratio_inertia_7', 's1ratio_mean_21', 's1ratio_mean_7', 's1ratio_med_21', 's1ratio_med_7', 's1ratio_prom_21', 's1ratio_prom_7', 's1ratio_savg_7', 's1ratio_sd_21', 's1ratio_sd_7', 's1ratio_sent_21', 's1ratio_sent_7', 's1ratio_svar_21', 's1ratio_svar_7', 's1ratio_var_21', 's1ratio_var_7', 's1vh', 's1vh_entropy_21', 's1vh_entropy_7', 's1vh_gearys_21', 's1vh_gearys_7', 's1vh_mean_21', 's1vh_mean_7', 's1vh_med_21', 's1vh_med_7', 's1vh_sd_21', 's1vh_sd_7', 's1vv', 's1vv_asm_21', 's1vv_asm_7', 's1vv_contrast_21', 's1vv_contrast_7', 's1vv_corr_21', 's1vv_corr_7', 's1vv_dent_21', 's1vv_dent_7', 's1vv_diss_21', 's1vv_diss_7', 's1vv_dvar_21', 's1vv_dvar_7', 's1vv_ent_21', 's1vv_ent_7', 's1vv_entropy_21', 's1vv_entropy_7', 's1vv_gearys_21', 's1vv_gearys_7', 's1vv_idm_21', 's1vv_idm_7', 's1vv_imcorr1_21', 's1vv_imcorr1_7', 's1vv_imcorr2_21', 's1vv_imcorr2_7', 's1vv_inertia_21', 's1vv_inertia_7', 's1vv_mean_21', 's1vv_mean_7', 's1vv_med_21', 's1vv_med_7', 's1vv_prom_21', 's1vv_prom_7', 's1vv_savg_21', 's1vv_savg_7', 's1vv_sd_21', 's1vv_sd_7', 's1vv_sent_21', 's1vv_sent_7', 's1vv_svar_21', 's1vv_svar_7', 's1vv_var_21', 's1vv_var_7', 's2glc_asm_7', 's2glc_contrast_21', 's2glc_contrast_7', 's2glc_corr_21', 's2glc_corr_7', 's2glc_dent_21', 's2glc_dent_7', 's2glc_diss_21', 's2glc_diss_7', 's2glc_dvar_21', 's2glc_dvar_7', 's2glc_edge_prop', 's2glc_ent_21', 's2glc_ent_7', 's2glc_entropy_21', 's2glc_entropy_7', 's2glc_idm_21', 's2glc_idm_7', 's2glc_imcorr1_21', 's2glc_imcorr1_7', 's2glc_imcorr2_7', 's2glc_inertia_21', 's2glc_inertia_7', 's2glc_narrowness', 's2glc_prom_21', 's2glc_prom_7', 's2glc_savg_21', 's2glc_savg_7', 's2glc_sent_21', 's2glc_sent_7', 's2glc_shp_compl', 's2glc_svar_21', 's2glc_svar_7', 's2glc_var_21', 's2glc_var_7', 'sat_entropy_21', 'sat_entropy_7', 'srtm', 'srtm_tpi', 'srtm_tri', 'srtmEastness', 'srtmGaussCurv', 'srtmHorCurv', 'srtmMaxCurv', 'srtmMeanCurv', 'srtmMinCurv', 'srtmNorthness', 'srtmShapeIndex', 'srtmSlope', 'srtmVerCurv', 'val_entropy_21', 'val_entropy_7', 'Split']
+gencethreshold': '1e-05', 'maximumbackground': '10000', 'threads': '1', 'plots': 'true', 'outputgrids': 'true', 'autofeature': 'true', 'beta_categorical': '-1', 'randomtestpoints': '0', 'betamultiplier': '1', 'hinge': 'true', 'writeclampgrid': 'false', 'beta_lqp': '-1'} mpt=TRUE java_path=java mes=FALSE rc=responseBinary mbt=TRUE lam=D:\oleksandr\model\LandscapeWatching10\Maxent_1
+outDir= D:\oleksandr\model\LandscapeWatching10\Maxent_1
+
+R version 3.2.0 (2015-04-16) -- "Full of Ingredients"
+Copyright (C) 2015 The R Foundation for Statistical Computing
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> ###############################################################################
+> ##
+> ## Copyright (C) 20010-2012, USGS Fort Collins Science Center. 
+> ## All rights reserved.
+> ## Contact: talbertc@usgs.gov
+> ##
+> ## This file is part of the Software for Assisted Habitat Modeling package
+> ## for VisTrails.
+> ##
+> ## "Redistribution and use in source and binary forms, with or without 
+> ## modification, are permitted provided that the following conditions are met:
+> ##
+> ##  - Redistributions of source code must retain the above copyright notice, 
+> ##    this list of conditions and the following disclaimer.
+> ##  - Redistributions in binary form must reproduce the above copyright 
+> ##    notice, this list of conditions and the following disclaimer in the 
+> ##    documentation and/or other materials provided with the distribution.
+> ##  - Neither the name of the University of Utah nor the names of its 
+> ##    contributors may be used to endorse or promote products derived from 
+> ##    this software without specific prior written permission.
+> ##
+> ## THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" 
+> ## AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, 
+> ## THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR 
+> ## PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR 
+> ## CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, 
+> ## EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, 
+> ## PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; 
+> ## OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, 
+> ## WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR 
+> ## OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF 
+> ## ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+> ##
+> ## Although this program has been used by the U.S. Geological Survey (USGS), 
+> ## no warranty, expressed or implied, is made by the USGS or the 
+> ## U.S. Government as to the accuracy and functioning of the program and 
+> ## related program material nor shall the fact of distribution constitute 
+> ## any such warranty, and no responsibility is assumed by the USGS 
+> ## in connection therewith.
+> ##
+> ## Any use of trade, firm, or product names is for descriptive purposes only 
+> ## and does not imply endorsement by the U.S. Government.
+> ###############################################################################
+> 
+> make.p.tif=T
+> make.binary.tif=T
+> opt.methods=2
+> MESS=FALSE
+> multCore=TRUE
+> 
+> # Interpret command line argurments #
+> # Make Function Call #
+> Args <- commandArgs(trailingOnly=FALSE)
+> 
+>     for (i in 1:length(Args)){
++ 		if(Args[i]=="-f") ScriptPath<-Args[i+1]
++ 		argSplit <- strsplit(Args[i], "=")
++ 		if(argSplit[[1]][1]=="--file") ScriptPath <- argSplit[[1]][2]
++ 	}
+> 
+>     for (arg in Args) {
++     	argSplit <- strsplit(arg, "=")
++     	argSplit[[1]][1]
++     	argSplit[[1]][2]
++     	if(argSplit[[1]][1]=="c") csv <- argSplit[[1]][2]
++     	if(argSplit[[1]][1]=="o") output <- argSplit[[1]][2]
++     	if(argSplit[[1]][1]=="rc") responseCol <- argSplit[[1]][2]
++    		if(argSplit[[1]][1]=="mpt") make.p.tif <- as.logical(argSplit[[1]][2])
++  			if(argSplit[[1]][1]=="mbt")  make.binary.tif <- as.logical(argSplit[[1]][2])
++  			if(argSplit[[1]][1]=="om")  opt.methods <- as.numeric(argSplit[[1]][2])
++  		  if(argSplit[[1]][1]=="mes")  MESS <-as.logical(argSplit[[1]][2])
++  			if(argSplit[[1]][1]=="lam")  lambdas <-argSplit[[1]][2]
++  			 if(argSplit[[1]][1]=="multicore")  multCore <- as.logical(argSplit[[1]][2])
++     }
+> 
+> ScriptPath<-dirname(ScriptPath)
+> source(file.path(ScriptPath,"LoadRequiredCode.r"))
+> source(file.path(ScriptPath,"MAXENT.helper.fcts.r"))
+> 
+> 
+>     FitModels(ma.name=csv,
++ 		output.dir=output,
++ 		response.col=responseCol,
++ 		make.p.tif=make.p.tif,make.binary.tif=make.binary.tif,
++ 		script.name="maxent",
++     opt.methods=opt.methods,MESS=MESS,lambdas=lambdas,ScriptPath=ScriptPath,multCore=multCore,debug.mode=FALSE)
+1  2  3  4  5  6  7  8  9  10   
+40%
+Progress:70%
+
+finished with final model summarization, t= 51.66 sec
+Progress:80%
+
+producing prediction maps... 
+ 
+
+finished with prediction maps, t= 206.67 sec
+Progress:100%
+> 
+> 
+> 
+> 
+
+tiles_dname D:\oleksandr\model\LandscapeWatching10\Maxent_1\BinTiff
+outFname D:\oleksandr\model\LandscapeWatching10\Maxent_1\Maxent_bin_map.tif
+0...10...20...30...40...50...60...70...80...90...100 - done.
+tiles_dname D:\oleksandr\model\LandscapeWatching10\Maxent_1\ProbTiff
+outFname D:\oleksandr\model\LandscapeWatching10\Maxent_1\Maxent_prob_map.tif
+0...10...20...30...40...50...60...70...80...90...100 - done.
+tiles_dname D:\oleksandr\model\LandscapeWatching10\Maxent_1\ResidTiff
+outFname D:\oleksandr\model\LandscapeWatching10\Maxent_1\Maxent_resid_map.tif
+0...10...20...30...40...50...60...70...80...90...100 - done.
+tiles_dname D:\oleksandr\model\LandscapeWatching10\Maxent_1\MESSTiff
+tiles_dname D:\oleksandr\model\LandscapeWatching10\Maxent_1\ModTiff
+Finished successfully!
